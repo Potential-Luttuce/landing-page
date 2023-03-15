@@ -1,0 +1,28 @@
+/* Style Sheet for Landing Page Project */
+* {
+    /* border: 1px solid black; */
+}
+
+.header {
+    display: flex;
+    gap: 1em;
+    background-color: #1F2937;
+    color: white;
+    align-items: baseline;
+}
+
+
+.logo {
+    margin-left: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.last-link {
+    margin-right: 100px;
+}
+
+.first-link {
+    margin-left: auto;
+}
