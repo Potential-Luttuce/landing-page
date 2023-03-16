@@ -26,9 +26,10 @@
 }
 
 .container-one {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
     padding-top: 25px;
     gap: 2em;
 }
