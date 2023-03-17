@@ -43,3 +43,13 @@
 .robot {
     margin-right: 100px;
 }
+
+.info,
+.cards {
+    display: flex;
+    justify-content: center;
+}
+.cards {
+
+
+}
