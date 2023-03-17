@@ -87,4 +87,24 @@ button:hover {
     width: 200px;
 }
 
+.container-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
 
+.quote {
+    border: 1px solid red;;
+    width: 600px;
+}
+
+.quote-author {
+    border: 1px solid blue;
+    margin-left: auto;
+}
+
+.quote-text {
+    font-weight: 1;
+    font-size: 24px;
+}
