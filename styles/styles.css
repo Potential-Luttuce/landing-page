@@ -40,6 +40,15 @@
     width: 400px
 }
 
+button {
+    background: #3882F6;
+    color: white;
+}
+
+button:hover {
+    font-size: large;
+}
+
 .robot {
     margin-right: 100px;
 }
@@ -49,7 +58,33 @@
     display: flex;
     justify-content: center;
 }
-.cards {
 
-
+.info {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 30px;
 }
+
+.cards {
+    gap: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    /* padding: 25px; */
+    height: 75px;
+    width: 75px;
+    border: 2px solid #3882F6;
+}
+
+.subtext {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+
