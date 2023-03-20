@@ -130,6 +130,7 @@ button {
 .container-four {
     display: flex;
     justify-content: center;
+    padding: 200px 50px;
 }
 
 .content {
@@ -150,4 +151,13 @@ button {
 .last-button:hover {
     color: #3882F6;
     background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
