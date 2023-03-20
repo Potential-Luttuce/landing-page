@@ -1,4 +1,5 @@
 /* Style Sheet for Landing Page Project */
+
 * {
     /* border: 1px solid black; */
 }
@@ -9,8 +10,12 @@
     background-color: #1F2937;
     color: white;
     align-items: baseline;
+    /* border-radius: 25px; */
 }
 
+.header > button:hover {
+    background-color:aquamarine;
+}
 .logo {
     margin-left: 100px;
     font-size: 24px;
@@ -32,6 +37,7 @@
     justify-content: center;
     padding: 25px 0;
     gap: 2em;
+    /* border-radius: 25px; */
 }
 
 .container-one-txt {
@@ -45,12 +51,14 @@ button {
     color: white;
 }
 
-button:hover {
-    font-size: large;
+#signup:hover {
+    font-size: 20px;
+   background-color: black;
 }
 
 .robot {
     margin-right: 100px;
+    border-radius: 25px;
 }
 
 .info,
@@ -77,6 +85,7 @@ button:hover {
     height: 75px;
     width: 75px;
     border: 2px solid #3882F6;
+    border-radius: 25px;
 }
 
 .subtext {
@@ -87,23 +96,28 @@ button:hover {
     width: 200px;
 }
 
+.container-two {
+    padding-bottom: 30px;
+}
 .container-three {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     padding: 100px 0;
+    border-radius: 100px;
 }
 
 .quote {
-    border: 1px solid red;;
+    /* border: 1px solid red; */
     width: 600px;
+    display: flex;
 }
 
 .quote-author {
-    border: 1px solid blue;
+    border: 1px solid black;
+    display: flex;
     margin-left: auto;
 }
-
 .quote-text {
     font-weight: 1;
     font-size: 24px;
