@@ -111,14 +111,36 @@ button {
     /* border: 1px solid red; */
     width: 600px;
     display: flex;
+    gap: 1em;
 }
 
-.quote-author {
-    border: 1px solid black;
-    display: flex;
-    margin-left: auto;
-}
 .quote-text {
     font-weight: 1;
     font-size: 24px;
+    width: 500px;
+}
+
+.quote-author {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-end;
+    width: 100px;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 20px 100px;
+    margin-top: 30px
+}
+
+.last-button {
+    margin-left: auto;
 }
