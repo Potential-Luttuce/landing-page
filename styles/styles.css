@@ -136,11 +136,18 @@ button {
     background-color: #3882F6;
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: 900px;
     padding: 20px 100px;
-    margin-top: 30px
+    margin-top: 30px;
+    gap: 2em;
 }
 
 .last-button {
     margin-left: auto;
+    border: 1px solid white;
+}
+
+.last-button:hover {
+    color: #3882F6;
+    background-color: white;
 }
